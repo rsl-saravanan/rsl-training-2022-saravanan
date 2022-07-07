@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hogwarts">Hogwarts</string>
+    <string name="man_image1">man_image1</string>
+    <string name="man_image2">man_image2</string>
+    <string name="man_image3">man_image3</string>
+</resources>
