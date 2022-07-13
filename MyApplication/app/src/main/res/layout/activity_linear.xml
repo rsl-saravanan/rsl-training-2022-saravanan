@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/container_a"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20">
+
+        <ImageView
+            android:id="@+id/backgroud_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="avator image"
+            android:scaleType="centerCrop"
+            android:src="@drawable/institute" />
+
+        <TextView
+            android:id="@+id/center_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/hogwarts"
+            android:textColor="@color/material_500"
+            android:textSize="@dimen/text_normal" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="14dp"
+            android:layout_gravity="center"
+            android:contentDescription="avator"
+            android:src="@drawable/man" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:gravity="center"
+            android:text="Potter"
+            android:textSize="@dimen/text_heading" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="phone number"
+            android:inputType="number"
+            android:textSize="@dimen/text_normal" />
+
+        <EditText
+            android:id="@+id/dateofbirth"
+            android:layout_width="200dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="Date of Birth"
+            android:inputType="date"
+            android:textSize="@dimen/text_normal" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            android:padding="10dp"
+            android:text="Cancel" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:background="@color/purple_500"
+            android:padding="10dp"
+            android:text="Submit" />
+
+
+    </LinearLayout>
+</LinearLayout>
