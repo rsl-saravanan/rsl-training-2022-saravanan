@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wifi Signal Indicator</string>
+    <string name="drawables_title">Instructions to change the signal strength:</string>
+    <string name="plus_text">i) Tab + button to increase the signal strength</string>
+    <string name="minus_text">ii) Tab - button to decrease the signal strength</string>
+    <string name="off_text">iii) Tab "Turn off" button to turn off the indicator</string>
+</resources>
